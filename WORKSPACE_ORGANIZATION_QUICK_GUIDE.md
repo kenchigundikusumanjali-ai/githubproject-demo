@@ -13,8 +13,8 @@ A complete guide to organizing your MindforgeAI Internship workspace for product
 **PowerShell Command:**
 ```powershell
 # Create folders automatically
-$studentId = "Kusumanjali Kenchigundi"
-$studentName = "YOUR_NAME_HERE"
+$studentId = "2026IT009"
+$studentName = "Kusumanjali Kenchigundi"
 $root = "e:\MindforgeAI Internship 2026 - $studentId - $studentName"
 New-Item -ItemType Directory -Path $root -Force | Out-Null
 
@@ -133,14 +133,14 @@ Open File Explorer and navigate to your folder. You should see 14 folders.
 
 ### First Time Setup
 ```bash
-git config --global user.name "Your Name"
-git config --global user.email "your.email@example.com"
+git config --global user.name "Kusumanjali Kenchigundi"
+git config --global user.email "kenchigundikusumanjali@gamil.com"
 ```
 
 ### Daily Git Commands
 ```bash
 # Navigate to project
-cd e:\MindforgeAI Internship 2026 - YOUR_ID - YOUR_NAME\10_Git_Repository\01_Main_Projects\source\your-project
+cd e:\MindforgeAI Internship 2026 - 2026IT009 - Kusumanjali Kenchigundi\10_Git_Repository\01_Main_Projects\source\your-project
 
 # Pull latest
 git pull origin main
@@ -170,8 +170,8 @@ git push origin feature/your-feature
 ### Folder Already Exists?
 ```powershell
 # Rename existing folder
-Rename-Item "e:\MindforgeAI Internship 2026 - 2026CS020 - Trupti Waychal" `
-            "e:\MindforgeAI Internship 2026 - 2026CS020 - Trupti Waychal_OLD"
+Rename-Item "e:\MindforgeAI Internship 2026 - 2026IT009 - Kusumanjali Kenchigundi" `
+            "e:\MindforgeAI Internship 2026 - 2026IT009 - Kusumanjali Kenchigundi"
 
 # Then run setup script with new ID or name
 ```
@@ -190,8 +190,8 @@ git --version
 # If not installed, download from https://git-scm.com/
 
 # Configure if needed
-git config --global user.name "Your Name"
-git config --global user.email "your@email.com"
+git config --global user.name "Kusumanjali Kenchigundi"
+git config --global user.email "kenchigundikusumanjali@gamil.com"
 ```
 
 ### Path Too Long Error?
