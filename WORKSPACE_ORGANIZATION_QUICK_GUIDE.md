@@ -13,7 +13,7 @@ A complete guide to organizing your MindforgeAI Internship workspace for product
 **PowerShell Command:**
 ```powershell
 # Create folders automatically
-$studentId = "YOUR_ID_HERE"
+$studentId = "Kusumanjali Kenchigundi"
 $studentName = "YOUR_NAME_HERE"
 $root = "e:\MindforgeAI Internship 2026 - $studentId - $studentName"
 New-Item -ItemType Directory -Path $root -Force | Out-Null

@@ -38,8 +38,8 @@ If using Google Drive, use this Google Apps Script:
 
 ```javascript
 function createMindforgeAIFolders() {
-  const studentId = "PASTE_YOUR_STUDENT_ID";
-  const studentName = "PASTE_YOUR_NAME";
+  const studentId = "2026IT009";
+  const studentName = "Kusumanjali Kenchigundi";
   const root = DriveApp.createFolder("MindforgeAI Internship 2026 - " + studentId + " - " + studentName);
   [
     "01_Daily_Diary",
@@ -61,7 +61,7 @@ function createMindforgeAIFolders() {
 cd e:\
 
 # Create main folder
-$rootPath = "e:\MindforgeAI Internship 2026 - [YOUR_ID] - [YOUR_NAME]"
+$rootPath = "e:\MindforgeAI Internship 2026 - [2026IT009] - [Kusumanjali Kenchigundi]"
 New-Item -ItemType Directory -Path $rootPath -Force
 
 # Create main module folders
@@ -136,7 +136,7 @@ The following resources are included:
 
 #### Step 1: Navigate to Target Folder
 ```powershell
-cd "E:\MindforgeAI Internship 2026 - 2026CS020 - Trupti Waychal\10_Git_Repository\01_Main_Projects\source"
+cd "E:\MindforgeAI Internship 2026 - 2026IT009 - Kusumanjali Kenchigundi\10_Git_Repository\01_Main_Projects\source"
 ```
 
 #### Step 2: Clone Repository
@@ -148,8 +148,8 @@ cd repository-name
 #### Step 3: Set Up Local Configuration
 ```bash
 # Configure Git (if not already done)
-git config --global user.name "Your Name"
-git config --global user.email "your.email@example.com"
+git config --global user.name "Kusumanjali Kenchigundi"
+git config --global user.email "kenchigundikusumanjali@gamil.com"
 
 # Verify configuration
 git config --list
@@ -270,8 +270,8 @@ git --version
 **Issue: Authentication failed**
 ```powershell
 # Solution: Set up Git credentials
-git config --global user.name "Your Name"
-git config --global user.email "your.email@example.com"
+git config --global user.name "Kusumanjali Kenchigundi"
+git config --global user.email "kenchigundikusumanjali@gamil.com"
 
 # For HTTPS cloning with GitHub, use personal access token
 ```
