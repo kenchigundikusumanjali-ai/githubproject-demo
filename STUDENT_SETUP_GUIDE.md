@@ -99,7 +99,7 @@ All learning PDFs should be placed in `Resources/`:
 ```powershell
 # Example: Moving a PDF
 Move-Item -Path "E:\Algorithmic Thinking Orientation Experience - Google Gemini.pdf" `
-          -Destination "E:\MindforgeAI Internship 2026 - 2026CS020 - Trupti Waychal\Resources\"
+          -Destination "E:\MindforgeAI Internship 2026 - 2026IT009- Kusumanjali Kenchigundi\Resources\"
 ```
 
 #### Current Resources
